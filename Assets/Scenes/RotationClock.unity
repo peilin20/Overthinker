@@ -546,6 +546,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 92196342}
+  rotatingClockObject: {fileID: 0}
 --- !u!114 &160311028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -835,7 +836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 2
 --- !u!114 &337772975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -933,6 +934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 1258628891}
+  rotatingClockObject: {fileID: 337772972}
 --- !u!114 &337772979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1198,6 +1200,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 1595779087}
+  rotatingClockObject: {fileID: 392052250}
 --- !u!114 &392052257
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1342,7 +1345,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 94669c631ae94d142b6f317ad380f03f, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 2581efae29e36e54f99b1995b2ddd821, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1589,7 +1592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 3
 --- !u!114 &534063454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1687,6 +1690,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: c7daacad71074904ea2fb0a1cf155911, type: 3}
   anotherObject: {fileID: 1012691842}
+  rotatingClockObject: {fileID: 534063451}
 --- !u!114 &534063458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1785,7 +1789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 2
 --- !u!114 &570448812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1883,6 +1887,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 1333745555}
+  rotatingClockObject: {fileID: 570448809}
 --- !u!114 &570448816
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2066,6 +2071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 256443687}
+  rotatingClockObject: {fileID: 0}
 --- !u!114 &608503606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2432,6 +2438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: a1106bdefb12a564f99f419b53687818, type: 3}
   anotherObject: {fileID: 207376214}
+  rotatingClockObject: {fileID: 748785767}
 --- !u!114 &748785774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2628,6 +2635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 664628303}
+  rotatingClockObject: {fileID: 0}
 --- !u!114 &754007475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2824,6 +2832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: a1106bdefb12a564f99f419b53687818, type: 3}
   anotherObject: {fileID: 115306441}
+  rotatingClockObject: {fileID: 813044152}
 --- !u!114 &813044159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2922,7 +2931,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 8
 --- !u!114 &817027115
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3020,6 +3029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 995742631}
+  rotatingClockObject: {fileID: 817027112}
 --- !u!114 &817027119
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3280,7 +3290,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 1
 --- !u!114 &959071282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3378,6 +3388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 23241fadb1aa1cd4d9e34b2c5a486682, type: 3}
   anotherObject: {fileID: 1838168539}
+  rotatingClockObject: {fileID: 959071279}
 --- !u!114 &959071286
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3917,6 +3928,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 1272976460}
+  rotatingClockObject: {fileID: 0}
 --- !u!114 &1113163949
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4202,6 +4214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 1073205433}
+  rotatingClockObject: {fileID: 0}
 --- !u!114 &1194735877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4686,6 +4699,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 1116148199}
+  rotatingClockObject: {fileID: 0}
 --- !u!114 &1284879782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4904,9 +4918,9 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -530400325
-  m_SortingLayer: -1
-  m_SortingOrder: 100
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
   m_Time: Infinity
   m_PreviewTimeScale: 1
   m_Parameters:
@@ -5142,7 +5156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 8
 --- !u!114 &1497421571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5240,6 +5254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: a1106bdefb12a564f99f419b53687818, type: 3}
   anotherObject: {fileID: 1065910277}
+  rotatingClockObject: {fileID: 1497421568}
 --- !u!114 &1497421575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5338,7 +5353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 4
 --- !u!114 &1526169774
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5436,6 +5451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 23241fadb1aa1cd4d9e34b2c5a486682, type: 3}
   anotherObject: {fileID: 914942061}
+  rotatingClockObject: {fileID: 1526169771}
 --- !u!114 &1526169778
 MonoBehaviour:
   m_ObjectHideFlags: 0
