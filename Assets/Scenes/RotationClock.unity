@@ -1197,7 +1197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
-  anotherObject: {fileID: 0}
+  anotherObject: {fileID: 1595779087}
 --- !u!114 &392052257
 MonoBehaviour:
   m_ObjectHideFlags: 0
