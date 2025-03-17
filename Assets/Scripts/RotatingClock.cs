@@ -28,4 +28,17 @@ public class RotatingClock : MonoBehaviour
             secondsPassed = 0;
         }
     }
+    public void StopRotation()
+    {
+        // InvokeRepeatingで登録したRotateClock呼び出しをキャンセル
+        CancelInvoke(nameof(RotateClock));
+    }
+    public void ResumeRotation()
+    {
+        // まだ登録されていない場合のみ呼び出す
+        if (!IsInvoking(nameof(RotateClock)))
+        {
+            InvokeRepeating(nameof(RotateClock), 1f, 1f);
+        }
+    }
 }

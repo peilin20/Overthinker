@@ -225,6 +225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 5597837818205754698}
+  rotatingClockObject: {fileID: 5597837817173276803}
 --- !u!114 &437219083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,6 +329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 5597837818225123707}
+  rotatingClockObject: {fileID: 5597837817083105873}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -474,7 +476,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 12
 --- !u!114 &536160049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,6 +574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 1318968553}
+  rotatingClockObject: {fileID: 536160046}
 --- !u!114 &536160053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -787,6 +790,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 5597837818849804270}
+  rotatingClockObject: {fileID: 5597837817790561687}
 --- !u!114 &1115297606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1211,6 +1215,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 5597837819070550870}
+  rotatingClockObject: {fileID: 5597837818122319116}
 --- !u!114 &1686203922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1633,7 +1638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 4
 --- !u!1 &5597837817173276803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1706,7 +1711,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 2
 --- !u!1 &5597837817790561687
 GameObject:
   m_ObjectHideFlags: 0
@@ -1779,7 +1784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 30
 --- !u!1 &5597837818122319116
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,7 +1857,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59cf1489a55f0964d824ef2d93788e0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationPerSecond: 6
+  rotationPerSecond: 10
 --- !u!1 &5597837818205754698
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,6 +2246,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highlightedSprite: {fileID: 21300000, guid: 90171bf9ee8a5284b80bd0b7f85f7747, type: 3}
   anotherObject: {fileID: 5597837818551986714}
+  rotatingClockObject: {fileID: 1717365291635079323}
 --- !u!114 &6519749309243426248
 MonoBehaviour:
   m_ObjectHideFlags: 0
