@@ -21,12 +21,12 @@ clockRotateManager = anotherObject.GetComponent<ClockRotateManager>();
 public void OnPointerEnter()
 {
 buttonImage.sprite = highlightedSprite; 
-clockRotateManager.StopRotation();
+clockRotateManager.ResumeRotation();
 }
 
 public void OnPointerExit()
 {
 buttonImage.sprite = normalSprite;
-clockRotateManager.ResumeRotation();
+clockRotateManager.StopRotation();
 }
 }

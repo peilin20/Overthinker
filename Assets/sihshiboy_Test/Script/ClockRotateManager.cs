@@ -11,7 +11,7 @@ public class ClockRotateManager : MonoBehaviour
     void Start()
     {
         originalRotation = transform.rotation;
-        InvokeRepeating(nameof(RotateClock), 1f, 1f); // Call RotateClock every 1 second
+        //InvokeRepeating(nameof(RotateClock), 1f, 1f); // Call RotateClock every 1 second
     }
 
     public void RotateClock()
